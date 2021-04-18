@@ -1,1 +1,10 @@
-{}
+{
+  "auth": {
+    "V3CoreUI": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

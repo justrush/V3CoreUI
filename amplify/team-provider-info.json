@@ -10,6 +10,11 @@
       "StackName": "amplify-v3coreui-dev-164610",
       "StackId": "arn:aws:cloudformation:us-east-2:885430138651:stack/amplify-v3coreui-dev-164610/c2ed2be0-9e44-11eb-97ad-063ea9f5776c",
       "AmplifyAppId": "d2p2dw191n5qjs"
+    },
+    "categories": {
+      "auth": {
+        "V3CoreUI": {}
+      }
     }
   }
 }
