@@ -77,7 +77,7 @@ const _nav =  [
   //  icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
   badge: {
     color: 'light',
-    text: 'June',
+    text: 'May',
   }
 },
   {
@@ -86,7 +86,7 @@ const _nav =  [
     to: '/Purchasing/Purchase Requisition (PR)',
     badge: {
       color: 'light',
-      text: 'June',
+      text: 'May',
     }
   },
   {
@@ -95,7 +95,7 @@ const _nav =  [
     to: '/Purchasing/Open PO Tracker (Material)',
     badge: {
       color: 'light',
-      text: 'June',
+      text: 'May',
     }
   },
   {
@@ -104,7 +104,7 @@ const _nav =  [
     to: '/Purchasing/Open PO Tracker (Tools)',
     badge: {
       color: 'light',
-      text: 'June',
+      text: 'May',
     }
   },
   {
@@ -127,7 +127,7 @@ const _nav =  [
   //  icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
   badge: {
     color: 'light',
-    text: 'May',
+    text: 'June',
   }
 },
   {
@@ -136,7 +136,7 @@ const _nav =  [
     to: '/Forecasting/VMI Inv',
     badge: {
       color: 'light',
-      text: 'May',
+      text: 'June',
     }
   },
   {
@@ -145,7 +145,7 @@ const _nav =  [
     to: '/Forecasting/Global Inv',
     badge: {
       color: 'light',
-      text: 'May',
+      text: 'June',
     }
   },
   {
@@ -154,7 +154,7 @@ const _nav =  [
     to: '/Forecasting/Network Topology',
     badge: {
       color: 'light',
-      text: 'May',
+      text: 'June',
     }
   },
 
