@@ -8,6 +8,7 @@ import {
   CCardFooter,
   CCardHeader,
   CCol,
+  CEmbed,
   CProgress,
   CRow,
   CCallout
@@ -21,7 +22,7 @@ const WidgetsBrand = lazy(() => import('../widgets/WidgetsBrand.js'))
 
 const Dashboard = () => {
   return (
-    <>
+    <> what about here
       <WidgetsDropdown />
       <CCard>
         <CCardBody>
@@ -30,6 +31,8 @@ const Dashboard = () => {
               <h4 id="traffic" className="card-title mb-0">Traffic</h4>
               <div className="small text-muted">November 2017</div>
             </CCol>
+
+  What is this?
             <CCol sm="7" className="d-none d-md-block">
               <CButton color="primary" className="float-right">
                 <CIcon name="cil-cloud-download"/>

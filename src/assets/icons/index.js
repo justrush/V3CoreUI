@@ -82,6 +82,7 @@ import {
   cilIndentDecrease,
   cilIndentIncrease,
   cilInputPower,
+  cilIndustry,
   cilItalic,
   cilJustifyCenter,
   cilJustifyLeft,

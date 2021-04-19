@@ -14,23 +14,209 @@ const _nav =  [
   },
   {
     _tag: 'CSidebarNavTitle',
-    _children: ['Theme']
+    _children: ['Demand Supply Balancing']
   },
   {
     _tag: 'CSidebarNavItem',
-    name: 'Colors',
-    to: '/theme/colors',
-    icon: 'cil-drop',
+    name: 'Purchasing BOM Selector',
+    to: '/Demand Supply Balancing/Purchasing BOM Selector',
+  //  icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
+    badge: {
+      color: 'light',
+      text: 'April',
+    }
   },
   {
     _tag: 'CSidebarNavItem',
-    name: 'Typography',
-    to: '/theme/typography',
-    icon: 'cil-pencil',
+    name: 'Product Tree Search',
+    to: '/Demand Supply Balancing/Product Tree Search',
+  //  icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
+  badge: {
+    color: 'light',
+    text: 'April',
+  }
+},
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Supplier BOM Search',
+    to: '/Demand Supply Balancing/Supplier BOM Search',
+   //  icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
+   badge: {
+    color: 'light',
+    text: 'April',
+  }
+},
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Usage BOM Search',
+    to: '/Demand Supply Balancing/Usage BOM Search',
+    //  icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
+    badge: {
+      color: 'light',
+      text: 'April',
+    }
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Demand Aggregator',
+    to: '/Demand Supply Balancing/Demand Aggregator',
+   //  icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
+   badge: {
+    color: 'light',
+    text: 'April',
+  }
+},
+  {
+    _tag: 'CSidebarNavTitle',
+    _children: ['Purchasing']
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'RFQ Tracker',
+    to: '/Purchasing/RFQ Tracker',
+  //  icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
+  badge: {
+    color: 'light',
+    text: 'June',
+  }
+},
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Purchase Requisition (PR)',
+    to: '/Purchasing/Purchase Requisition (PR)',
+    badge: {
+      color: 'light',
+      text: 'June',
+    }
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Open PO Tracker (Material)',
+    to: '/Purchasing/Open PO Tracker (Material)',
+    badge: {
+      color: 'light',
+      text: 'June',
+    }
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Open PO Tracker (Tools)',
+    to: '/Purchasing/Open PO Tracker (Tools)',
+    badge: {
+      color: 'light',
+      text: 'June',
+    }
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Risk Buy Tracker',
+    to: '/Purchasing/Open PO Tracker (Tools)',
+    badge: {
+      color: 'light',
+      text: 'May',
+    }
   },
   {
     _tag: 'CSidebarNavTitle',
-    _children: ['Components']
+    _children: ['Forecasting']
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'MFQ Flooor Inv',
+    to: '/Forecasting/MFQ Flooor Inv',
+  //  icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
+  badge: {
+    color: 'light',
+    text: 'May',
+  }
+},
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'VMI Inv',
+    to: '/Forecasting/VMI Inv',
+    badge: {
+      color: 'light',
+      text: 'May',
+    }
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Global Inv',
+    to: '/Forecasting/Global Inv',
+    badge: {
+      color: 'light',
+      text: 'May',
+    }
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Network Topology',
+    to: '/Forecasting/Network Topology',
+    badge: {
+      color: 'light',
+      text: 'May',
+    }
+  },
+
+  {
+    _tag: 'CSidebarNavTitle',
+    _children: ['Supplier Portal']
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Supplier Portal',
+    to: '/Supplier Portal/Weekly Forecast',
+  //  icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
+    badge: {
+      color: 'light',
+      text: 'May',
+    }
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Supply Tracker',
+    to: '/Supplier Portal/Supply Tracker',
+  //  icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
+  badge: {
+    color: 'light',
+    text: 'April',
+  }
+},
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'In Transit Tracker',
+    to: '/Supplier Portal/In Transit Tracker',
+   //  icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
+   badge: {
+    color: 'light',
+    text: 'May',
+  }
+},
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'MFG Supply Heat Map',
+    to: '/Supplier Portal/MFG Supply Heat Map',
+    //  icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
+    badge: {
+      color: 'light',
+      text: 'April',
+    }
+  },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Tier 1 Heat Map',
+    to: '/Supplier Portal/Tier 1 Heat Map',
+   //  icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
+   badge: {
+    color: 'light',
+    text: 'April',
+  }
+},
+
+
+  {
+    _tag: 'CSidebarNavTitle',
+    _children: ['Purchasing']
   },
   {
     _tag: 'CSidebarNavDropdown',
