@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/getQuickSightDashboardEmbedURL",
+            "lambdaFunction": "getQuickSightDashboardEmbedURL",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/getQuickSightDashboardEmbedURL"
+        }
+    ],
+    "resourceName": "quicksight",
+    "apiName": "quicksight",
+    "functionArns": [
+        {
+            "lambdaFunction": "getQuickSightDashboardEmbedURL"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-v3coreui-dev-164610-authRole",
+        "unAuthRoleName": "amplify-v3coreui-dev-164610-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "getQuickSightDashboardEmbedURL",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
