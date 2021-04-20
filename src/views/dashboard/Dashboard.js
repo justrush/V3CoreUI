@@ -6,6 +6,7 @@ import {
   CCardBody,
   CCardHeader,
   CJumbotron,
+
   CCol,
   CListGroup,
   CListGroupItem,
@@ -13,7 +14,10 @@ import {
   CTabContent,
   CTabPane
 } from '@coreui/react'
+
 import { DocsLink } from 'src/reusable'
+
+
 
 
 const Dashboard = () => {
@@ -21,15 +25,15 @@ const Dashboard = () => {
 
   return (
     <>
-
-
+ 
 <CRow>
         <CCol>
           <CCard>
             
             <CCardBody>
-              <CJumbotron className="border">
-                <h1 className="display-3">End to End Supply Chain (ETES)</h1>
+           
+              <CJumbotron className="flex w-100">
+                <h1 className="flex w-100">End to End Supply Chain (ETES) <img src="/images/etes_logo.png" className="flex" height='45' width='92' alt="..."></img>  </h1>
                 <p className="lead">Welcome to ETES!</p>
               </CJumbotron>
             </CCardBody>
