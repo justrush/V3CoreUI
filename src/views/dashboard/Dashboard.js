@@ -31,9 +31,7 @@ const Dashboard = () => {
               <CJumbotron className="border">
                 <h1 className="display-3">End to End Supply Chain (ETES)</h1>
                 <p className="lead">Welcome to ETES!</p>
-                <hr className="my-2" />
-                <p>For reference documentation, pleaser contact @justrush </p>
-             </CJumbotron>
+              </CJumbotron>
             </CCardBody>
           </CCard>
         </CCol>
