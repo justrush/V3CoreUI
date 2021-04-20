@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
 import {
   CBadge,
+  CButton,
   CCard,
   CCardBody,
   CCardHeader,
+  CJumbotron,
   CCol,
   CListGroup,
   CListGroupItem,
@@ -21,7 +23,21 @@ const Dashboard = () => {
     <>
 
 
-    add ETES in BOLD LETYER
+<CRow>
+        <CCol>
+          <CCard>
+            
+            <CCardBody>
+              <CJumbotron className="border">
+                <h1 className="display-3">End to End Supply Chain (ETES)</h1>
+                <p className="lead">Welcome to ETES!</p>
+                <hr className="my-2" />
+                <p>For reference documentation, pleaser contact @justrush </p>
+             </CJumbotron>
+            </CCardBody>
+          </CCard>
+        </CCol>
+      </CRow>
       <CRow>
       <CCol sm="12" xl="6">
           <CCard>
