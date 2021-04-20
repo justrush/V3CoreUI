@@ -19,6 +19,9 @@ const Dashboard = () => {
 
   return (
     <>
+
+
+    add ETES in BOLD LETYER
       <CRow>
       <CCol sm="12" xl="6">
           <CCard>
@@ -164,59 +167,59 @@ const Dashboard = () => {
               <CListGroup>
                 <CListGroupItem action active>
                   <h4 className="d-flex w-100 justify-content-between">
-                    Purchasing
+                    Supplier Portal
                     <small>3 days ago</small>
                   </h4>
                 </CListGroupItem>
                 <CListGroupItem action actve>
                   <h5 className="d-flex w-100  justify-content-between">
-                    RFQ Tracker       
+                    Supplier Portal       
                       <small>  <b> Target Date: May</b> </small>
                     </h5>
                   <div>
-                  RFQ Tracker  Description
+                  Supplier Portal  Description
                   </div>
                 </CListGroupItem>
 
                 <CListGroupItem action actve>
                   <h5 className="d-flex w-100  justify-content-between">
-                    Purchase Requisition  (PR)  
-                      <small>  <b> Target Date: May</b> </small>
+                    Supplier Tracker
+                      <small>  <b> Target Date: April</b> </small>
                     </h5>
                   <div>
-                  Purchase Requisition  (PR)   Description
+                  Supplier Tracker Description
                   </div>
                 </CListGroupItem>
 
                 <CListGroupItem action actve>
                   <h5 className="d-flex w-100  justify-content-between">
-                    Open PO Tracker (Material)   
+                    In Transit Tracker  
                       <small>  <b> Target Date: May</b> </small>
                     </h5>
                   <div>
-                  Open PO Tracker (Material)  Description
-                  </div>
-                </CListGroupItem>
-
-
-                <CListGroupItem action actve>
-                  <h5 className="d-flex w-100  justify-content-between">
-                      Open PO Tracker (Tooling)     
-                      <small>  <b> Target Date: May</b> </small>
-                    </h5>
-                  <div>
-                  Open PO Tracker (Tooling)   Description
+                  In Transit Tracker   Description
                   </div>
                 </CListGroupItem>
 
 
                 <CListGroupItem action actve>
                   <h5 className="d-flex w-100  justify-content-between">
-                    Last Time - Risk Buy Tracker   
-                      <small>  <b> Target Date: May</b> </small>
+                      MFG Supply Heat Map   
+                      <small>  <b> Target Date: April</b> </small>
                     </h5>
                   <div>
-                  Last Time - Risk Buy Tracker  Description
+                  MFG Supply Heat Map  Description
+                  </div>
+                </CListGroupItem>
+
+
+                <CListGroupItem action actve>
+                  <h5 className="d-flex w-100  justify-content-between">
+                    Tier 1 Heat Map
+                      <small>  <b> Target Date: April</b> </small>
+                    </h5>
+                  <div>
+                  Tier 1 Heat Map Description
                 </div>
                 </CListGroupItem> 
 
@@ -282,11 +285,7 @@ const Dashboard = () => {
             </CCardBody>
           </CCard>
         </CCol>
-
-
-
       </CRow>
-     git 
     </>
   )
 }
