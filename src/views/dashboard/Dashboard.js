@@ -53,7 +53,7 @@ const Dashboard = () => {
                       <small>  <b> Target Date: April</b> </small>
                     </h5>
                   <div>
-                    Purchasing BOM Selector Description
+                  Select right BOM version and Qty/Need-by data
                   </div>
                 </CListGroupItem>
 
@@ -63,7 +63,7 @@ const Dashboard = () => {
                       <small>  <b> Target Date: April</b> </small>
                     </h5>
                   <div>
-                  Product Tree Search   Description
+                  Multi-Level BOM view (Top-level Satellite to Sub-tier components)
                   </div>
                 </CListGroupItem>
 
@@ -73,7 +73,7 @@ const Dashboard = () => {
                       <small>  <b> Target Date: April</b> </small>
                     </h5>
                   <div>
-                  Supplier BOM Search  Description
+                  Multi-Level BOM grouped by Supplier
                   </div>
                 </CListGroupItem>
 
@@ -84,7 +84,7 @@ const Dashboard = () => {
                       <small>  <b> Target Date: April</b> </small>
                     </h5>
                   <div>
-                  'Where Used?' BOM Search    Description
+                  Sub-tier Components with SiliconExpert Data
                   </div>
                 </CListGroupItem>
 
@@ -95,7 +95,7 @@ const Dashboard = () => {
                       <small>  <b> Target Date: April</b> </small>
                     </h5>
                   <div>
-                  Demand Aggregator Description
+                  Consolidated Demand Plan across all product tiers
                 </div>
                 </CListGroupItem> 
 
@@ -201,7 +201,7 @@ const Dashboard = () => {
                       <small>  <b> Target Date: April</b> </small>
                     </h5>
                   <div>
-                  Supplier Tracker Description
+                  Supply and Inventory feed from Suppliers
                   </div>
                 </CListGroupItem>
 
@@ -222,7 +222,7 @@ const Dashboard = () => {
                       <small>  <b> Target Date: April</b> </small>
                     </h5>
                   <div>
-                  MFG Supply Heat Map  Description
+                  DS Heatmap for Satellite and Sub-systems
                   </div>
                 </CListGroupItem>
 
@@ -233,7 +233,7 @@ const Dashboard = () => {
                       <small>  <b> Target Date: April</b> </small>
                     </h5>
                   <div>
-                  Tier 1 Heat Map Description
+                  DS Heatmap for Tier I/II components
                 </div>
                 </CListGroupItem> 
 

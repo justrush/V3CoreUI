@@ -6,7 +6,7 @@ const _nav =  [
     _tag: 'CSidebarNavItem',
     name: 'Dashboard',
     to: '/dashboard',
-    icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
+    icon: <CIcon name="cil-map" customClasses="c-sidebar-nav-icon"/>,
     badge: {
       color: 'info',
       text: 'ETES',
@@ -20,7 +20,7 @@ const _nav =  [
     _tag: 'CSidebarNavItem',
     name: 'Purchasing BOM Selector',
     to: 'DemandSupply/PurchasingBOMSelector',
-  //  icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
+  icon: <CIcon name="cil-puzzle" customClasses="c-sidebar-nav-icon"/>,
     badge: {
       color: 'light',
       text: 'April',
@@ -30,17 +30,17 @@ const _nav =  [
     _tag: 'CSidebarNavItem',
     name: 'Product Tree Search',
     to: 'DemandSupply/Product_Tree_Search',
-  //  icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
+  icon: <CIcon name="cil-sitemap" customClasses="c-sidebar-nav-icon"/>,
   badge: {
     color: 'light',
-    text: 'April',
+        text: 'April',
   }
 },
   {
     _tag: 'CSidebarNavItem',
     name: 'Supplier BOM Search',
     to: '/Demand Supply Balancing/Supplier BOM Search',
-   //  icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
+   icon: <CIcon name="cil-industry" customClasses="c-sidebar-nav-icon"/>,
    badge: {
     color: 'light',
     text: 'April',
@@ -50,7 +50,7 @@ const _nav =  [
     _tag: 'CSidebarNavItem',
     name: 'Usage BOM Search',
     to: '/Demand Supply Balancing/Usage BOM Search',
-    //  icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
+    icon: <CIcon name="cil-GlobeAlt" customClasses="c-sidebar-nav-icon"/>,
     badge: {
       color: 'light',
       text: 'April',
@@ -60,7 +60,7 @@ const _nav =  [
     _tag: 'CSidebarNavItem',
     name: 'Demand Aggregator',
     to: '/Demand Supply Balancing/Demand Aggregator',
-   //  icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
+   icon: <CIcon name="cil-graph" customClasses="c-sidebar-nav-icon"/>,
    badge: {
     color: 'light',
     text: 'April',
@@ -124,7 +124,7 @@ const _nav =  [
     _tag: 'CSidebarNavItem',
     name: 'MFQ Flooor Inv',
     to: '/Forecasting/MFQ Flooor Inv',
-  //  icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
+ icon: <CIcon name="cil-industry" customClasses="c-sidebar-nav-icon"/>,
   badge: {
     color: 'light',
     text: 'June',
@@ -143,6 +143,7 @@ const _nav =  [
     _tag: 'CSidebarNavItem',
     name: 'Global Inv',
     to: '/Forecasting/Global Inv',
+    icon: <CIcon name="cil-GlobeAlt" customClasses="c-sidebar-nav-icon"/>,
     badge: {
       color: 'light',
       text: 'June',
@@ -152,6 +153,7 @@ const _nav =  [
     _tag: 'CSidebarNavItem',
     name: 'Network Topology',
     to: '/Forecasting/Network Topology',
+    on: <CIcon name="cil-map" customClasses="c-sidebar-nav-icon"/>,
     badge: {
       color: 'light',
       text: 'June',
