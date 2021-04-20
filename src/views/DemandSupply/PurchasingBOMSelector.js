@@ -17,7 +17,7 @@ const PurchasingBOMSelector = () => {
 
   return (
     <>
-<img src="/images/ETES.png" alt=""/>
+<img src="/images/BOM.png" alt=""/>
         <CRow>
         <CCol>
           <CCard>
