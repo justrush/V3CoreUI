@@ -74,66 +74,83 @@ const Dashboard = () => {
 
                 <CListGroupItem action actve>
                   <h5 className="d-flex w-100  justify-content-between">
-                    Supplier BOM Search     
+                    Demand Aggregator   
                       <small>  <b> Target Date: April</b> </small>
                     </h5>
                   <div>
-                  Supplier BOM Search  Description
+                  Demand Aggregator Description
                 </div>
                 </CListGroupItem> 
-              
-                <CListGroupItem action>
-                  <h5>List group item heading</h5>
-                  <div>
-                    Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
-                  </div>
-                  <small>Small.</small>
-                </CListGroupItem>
-                <CListGroupItem action>
-                  <h5>List group item heading</h5>
-                  <div>
-                    Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
-                  </div>
-                  <small>Small.</small>
-                </CListGroupItem>
+
               </CListGroup>
 
             </CCardBody>
           </CCard>
         </CCol>
+
+
         <CCol sm="12" xl="6">
           <CCard>
-            <CCardHeader>
-              List group
-              <small> custom content</small>
-            </CCardHeader>
             <CCardBody>
-
               <CListGroup>
                 <CListGroupItem action active>
-                  <h5 className="d-flex w-100 justify-content-between">
-                    List group item heading
+                  <h4 className="d-flex w-100 justify-content-between">
+                    Purchasing
                     <small>3 days ago</small>
-                  </h5>
-                  <div className="mb-1">
-                    Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
-                    <small>Donec id elit non mi porta.</small>
-                  </div>
+                  </h4>
                 </CListGroupItem>
-                <CListGroupItem action>
-                  <h5>List group item heading</h5>
+                <CListGroupItem action actve>
+                  <h5 className="d-flex w-100  justify-content-between">
+                    RFQ Tracker       
+                      <small>  <b> Target Date: May</b> </small>
+                    </h5>
                   <div>
-                    Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
+                  RFQ Tracker  Description
                   </div>
-                  <small>Small.</small>
                 </CListGroupItem>
-                <CListGroupItem action>
-                  <h5>List group item heading</h5>
+
+                <CListGroupItem action actve>
+                  <h5 className="d-flex w-100  justify-content-between">
+                    Purchase Requisition  (PR)  
+                      <small>  <b> Target Date: May</b> </small>
+                    </h5>
                   <div>
-                    Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
+                  Purchase Requisition  (PR)   Description
                   </div>
-                  <small>Small.</small>
                 </CListGroupItem>
+
+                <CListGroupItem action actve>
+                  <h5 className="d-flex w-100  justify-content-between">
+                    Open PO Tracker (Material)   
+                      <small>  <b> Target Date: May</b> </small>
+                    </h5>
+                  <div>
+                  Open PO Tracker (Material)  Description
+                  </div>
+                </CListGroupItem>
+
+
+                <CListGroupItem action actve>
+                  <h5 className="d-flex w-100  justify-content-between">
+                      Open PO Tracker (Tooling)     
+                      <small>  <b> Target Date: May</b> </small>
+                    </h5>
+                  <div>
+                  Open PO Tracker (Tooling)   Description
+                  </div>
+                </CListGroupItem>
+
+
+                <CListGroupItem action actve>
+                  <h5 className="d-flex w-100  justify-content-between">
+                    Last Time - Risk Buy Tracker   
+                      <small>  <b> Target Date: May</b> </small>
+                    </h5>
+                  <div>
+                  Last Time - Risk Buy Tracker  Description
+                </div>
+                </CListGroupItem> 
+
               </CListGroup>
 
             </CCardBody>
