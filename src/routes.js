@@ -1,4 +1,10 @@
+import PubSub from '@aws-amplify/pubsub';
 import React from 'react';
+
+const PurchasingBOMSelector = React.lazy(() => import('./views/DemandSupply/PurchasingBOMSelector'));
+
+
+
 
 const Toaster = React.lazy(() => import('./views/notifications/toaster/Toaster'));
 const Tables = React.lazy(() => import('./views/base/tables/Tables'));
@@ -39,6 +45,11 @@ const Users = React.lazy(() => import('./views/users/Users'));
 const User = React.lazy(() => import('./views/users/User'));
 
 const routes = [
+
+{ path: '/DemandSupply/PurchasingBOMSelector', name: 'Purchasing BOM Selector', component: PurchasingBOMSelector , exact: true},
+  { path: '/base', name: 'Base', component: Cards, exact: true },
+
+
   { path: '/', exact: true, name: 'Home' },
   { path: '/dashboard', name: 'Dashboard', component: Dashboard },
   { path: '/theme', name: 'Theme', component: Colors, exact: true },

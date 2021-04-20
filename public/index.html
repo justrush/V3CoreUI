@@ -30,12 +30,28 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <script src="./quicksight-embedding-js-sdk.min.js"></script>
+    <script type="text/javascript">
+        var dashboard;
+
+        function embedDashboard() {
+            var containerDiv = document.getElementById("embeddingContainer");
+            var options = {
+                // replace this dummy url with the one generated via embedding API
+                url: "https://us-east-2.quicksight.aws.amazon.com/sn/dashboards/9706bd1d-a19a-40a3-a98e-2ba436eb900e",  
+                container: containerDiv,
+                scrolling: "no",
+                height: "700px",
+                width: "1000px",
+                footerPaddingEnabled: true
+            };
+            dashboard = QuickSightEmbedding.embedDashboard(options);
+        }
+        </script>
   </head>
-  <body>
-    <noscript>
-      You need to enable JavaScript to run this app.
-    </noscript>
-    <div id="root"></div>
+    <body onload="embedDashboard()">
+      <div id="embeddingContainer"></div>
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

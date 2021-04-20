@@ -19,7 +19,7 @@ const _nav =  [
   {
     _tag: 'CSidebarNavItem',
     name: 'Purchasing BOM Selector',
-    to: '/Demand Supply Balancing/Purchasing BOM Selector',
+    to: 'DemandSupply/PurchasingBOMSelector',
   //  icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
     badge: {
       color: 'light',
@@ -29,7 +29,7 @@ const _nav =  [
   {
     _tag: 'CSidebarNavItem',
     name: 'Product Tree Search',
-    to: '/Demand Supply Balancing/Product Tree Search',
+    to: '/Product_Tree_Search',
   //  icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
   badge: {
     color: 'light',
