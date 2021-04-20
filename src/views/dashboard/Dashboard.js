@@ -156,8 +156,137 @@ const Dashboard = () => {
             </CCardBody>
           </CCard>
         </CCol>
+
+
+        <CCol sm="12" xl="6">
+          <CCard>
+            <CCardBody>
+              <CListGroup>
+                <CListGroupItem action active>
+                  <h4 className="d-flex w-100 justify-content-between">
+                    Purchasing
+                    <small>3 days ago</small>
+                  </h4>
+                </CListGroupItem>
+                <CListGroupItem action actve>
+                  <h5 className="d-flex w-100  justify-content-between">
+                    RFQ Tracker       
+                      <small>  <b> Target Date: May</b> </small>
+                    </h5>
+                  <div>
+                  RFQ Tracker  Description
+                  </div>
+                </CListGroupItem>
+
+                <CListGroupItem action actve>
+                  <h5 className="d-flex w-100  justify-content-between">
+                    Purchase Requisition  (PR)  
+                      <small>  <b> Target Date: May</b> </small>
+                    </h5>
+                  <div>
+                  Purchase Requisition  (PR)   Description
+                  </div>
+                </CListGroupItem>
+
+                <CListGroupItem action actve>
+                  <h5 className="d-flex w-100  justify-content-between">
+                    Open PO Tracker (Material)   
+                      <small>  <b> Target Date: May</b> </small>
+                    </h5>
+                  <div>
+                  Open PO Tracker (Material)  Description
+                  </div>
+                </CListGroupItem>
+
+
+                <CListGroupItem action actve>
+                  <h5 className="d-flex w-100  justify-content-between">
+                      Open PO Tracker (Tooling)     
+                      <small>  <b> Target Date: May</b> </small>
+                    </h5>
+                  <div>
+                  Open PO Tracker (Tooling)   Description
+                  </div>
+                </CListGroupItem>
+
+
+                <CListGroupItem action actve>
+                  <h5 className="d-flex w-100  justify-content-between">
+                    Last Time - Risk Buy Tracker   
+                      <small>  <b> Target Date: May</b> </small>
+                    </h5>
+                  <div>
+                  Last Time - Risk Buy Tracker  Description
+                </div>
+                </CListGroupItem> 
+
+              </CListGroup>
+
+            </CCardBody>
+          </CCard>
+        </CCol>
+
+
+
+        <CCol sm="12" xl="6">
+          <CCard>
+            <CCardBody>
+              <CListGroup>
+                <CListGroupItem action active>
+                  <h4 className="d-flex w-100 justify-content-between">
+                    Forecasting
+                    <small>3 days ago</small>
+                  </h4>
+                </CListGroupItem>
+                <CListGroupItem action actve>
+                  <h5 className="d-flex w-100  justify-content-between">
+                    MFG Floor Inv       
+                      <small>  <b> Target Date: June</b> </small>
+                    </h5>
+                  <div>
+                  MFG Floor Inv   Description
+                  </div>
+                </CListGroupItem>
+
+                <CListGroupItem action actve>
+                  <h5 className="d-flex w-100  justify-content-between">
+                    VMI Inv  
+                      <small>  <b> Target Date: June</b> </small>
+                    </h5>
+                  <div>
+                  VMI Inv  Description
+                  </div>
+                </CListGroupItem>
+
+                <CListGroupItem action actve>
+                  <h5 className="d-flex w-100  justify-content-between">
+                   Global Inv  
+                      <small>  <b> Target Date: June</b> </small>
+                    </h5>
+                  <div>
+                  Global Inv   Description
+                  </div>
+                </CListGroupItem>
+
+
+                <CListGroupItem action actve>
+                  <h5 className="d-flex w-100  justify-content-between">
+                      Network Topology    
+                      <small>  <b> Target Date: June</b> </small>
+                    </h5>
+                  <div>
+                  Network Topology      Description
+                  </div>
+                </CListGroupItem>
+              </CListGroup>
+            </CCardBody>
+          </CCard>
+        </CCol>
+
+
+
       </CRow>
-     
+     git 
     </>
   )
 }
