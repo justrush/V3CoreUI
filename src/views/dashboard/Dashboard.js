@@ -51,7 +51,7 @@ const Dashboard = () => {
                 <CListGroupItem action actve>
                   <h5 className="d-flex w-100  justify-content-between">
                     Purchasing BOM Selector         
-                      <small>  <b> Target Date: April</b> </small>
+                      <small>  <b> ECD: April</b> </small>
                     </h5>
                   <div>
                   Select right BOM version and Qty/Need-by data
@@ -61,7 +61,7 @@ const Dashboard = () => {
                 <CListGroupItem action actve>
                   <h5 className="d-flex w-100  justify-content-between">
                     Product Tree Search     
-                      <small>  <b> Target Date: April</b> </small>
+                      <small>  <b> ECD: April</b> </small>
                     </h5>
                   <div>
                   Multi-Level BOM view (Top-level Satellite to Sub-tier components)
@@ -71,7 +71,7 @@ const Dashboard = () => {
                 <CListGroupItem action actve>
                   <h5 className="d-flex w-100  justify-content-between">
                     Supplier BOM Search     
-                      <small>  <b> Target Date: April</b> </small>
+                      <small>  <b> ECD: April</b> </small>
                     </h5>
                   <div>
                   Multi-Level BOM grouped by Supplier
@@ -82,7 +82,7 @@ const Dashboard = () => {
                 <CListGroupItem action actve>
                   <h5 className="d-flex w-100  justify-content-between">
                     'Where Used?' BOM Search     
-                      <small>  <b> Target Date: April</b> </small>
+                      <small>  <b> ECD: April</b> </small>
                     </h5>
                   <div>
                   Sub-tier Components with SiliconExpert Data
@@ -93,7 +93,7 @@ const Dashboard = () => {
                 <CListGroupItem action actve>
                   <h5 className="d-flex w-100  justify-content-between">
                     Demand Aggregator   
-                      <small>  <b> Target Date: April</b> </small>
+                      <small>  <b> ECD: April</b> </small>
                     </h5>
                   <div>
                   Consolidated Demand Plan across all product tiers
@@ -120,7 +120,7 @@ const Dashboard = () => {
                 <CListGroupItem action actve>
                   <h5 className="d-flex w-100  justify-content-between">
                     RFQ Tracker       
-                      <small>  <b> Target Date: May</b> </small>
+                      <small>  <b> ECD: May</b> </small>
                     </h5>
                   <div>
                   RFQ Tracker  Description
@@ -130,7 +130,7 @@ const Dashboard = () => {
                 <CListGroupItem action actve>
                   <h5 className="d-flex w-100  justify-content-between">
                     Purchase Requisition  (PR)  
-                      <small>  <b> Target Date: May</b> </small>
+                      <small>  <b> ECD: May</b> </small>
                     </h5>
                   <div>
                   Purchase Requisition  (PR)   Description
@@ -140,7 +140,7 @@ const Dashboard = () => {
                 <CListGroupItem action actve>
                   <h5 className="d-flex w-100  justify-content-between">
                     Open PO Tracker (Material)   
-                      <small>  <b> Target Date: May</b> </small>
+                      <small>  <b> ECD: May</b> </small>
                     </h5>
                   <div>
                   Open PO Tracker (Material)  Description
@@ -151,7 +151,7 @@ const Dashboard = () => {
                 <CListGroupItem action actve>
                   <h5 className="d-flex w-100  justify-content-between">
                       Open PO Tracker (Tooling)     
-                      <small>  <b> Target Date: May</b> </small>
+                      <small>  <b> ECD: May</b> </small>
                     </h5>
                   <div>
                   Open PO Tracker (Tooling)   Description
@@ -162,7 +162,7 @@ const Dashboard = () => {
                 <CListGroupItem action actve>
                   <h5 className="d-flex w-100  justify-content-between">
                     Last Time - Risk Buy Tracker   
-                      <small>  <b> Target Date: May</b> </small>
+                      <small>  <b> ECD: May</b> </small>
                     </h5>
                   <div>
                   Last Time - Risk Buy Tracker  Description
@@ -189,7 +189,7 @@ const Dashboard = () => {
                 <CListGroupItem action actve>
                   <h5 className="d-flex w-100  justify-content-between">
                     Supplier Portal       
-                      <small>  <b> Target Date: May</b> </small>
+                      <small>  <b> ECD: May</b> </small>
                     </h5>
                   <div>
                   Supplier Portal  Description
@@ -199,7 +199,7 @@ const Dashboard = () => {
                 <CListGroupItem action actve>
                   <h5 className="d-flex w-100  justify-content-between">
                     Supplier Tracker
-                      <small>  <b> Target Date: April</b> </small>
+                      <small>  <b> ECD: April</b> </small>
                     </h5>
                   <div>
                   Supply and Inventory feed from Suppliers
@@ -209,7 +209,7 @@ const Dashboard = () => {
                 <CListGroupItem action actve>
                   <h5 className="d-flex w-100  justify-content-between">
                     In Transit Tracker  
-                      <small>  <b> Target Date: May</b> </small>
+                      <small>  <b> ECD: May</b> </small>
                     </h5>
                   <div>
                   In Transit Tracker   Description
@@ -220,7 +220,7 @@ const Dashboard = () => {
                 <CListGroupItem action actve>
                   <h5 className="d-flex w-100  justify-content-between">
                       MFG Supply Heat Map   
-                      <small>  <b> Target Date: April</b> </small>
+                      <small>  <b> ECD: April</b> </small>
                     </h5>
                   <div>
                   DS Heatmap for Satellite and Sub-systems
@@ -231,7 +231,7 @@ const Dashboard = () => {
                 <CListGroupItem action actve>
                   <h5 className="d-flex w-100  justify-content-between">
                     Tier 1 Heat Map
-                      <small>  <b> Target Date: April</b> </small>
+                      <small>  <b> ECD: April</b> </small>
                     </h5>
                   <div>
                   DS Heatmap for Tier I/II components
@@ -259,7 +259,7 @@ const Dashboard = () => {
                 <CListGroupItem action actve>
                   <h5 className="d-flex w-100  justify-content-between">
                     MFG Floor Inv       
-                      <small>  <b> Target Date: June</b> </small>
+                      <small>  <b> ECD: June</b> </small>
                     </h5>
                   <div>
                   MFG Floor Inv   Description
@@ -269,7 +269,7 @@ const Dashboard = () => {
                 <CListGroupItem action actve>
                   <h5 className="d-flex w-100  justify-content-between">
                     VMI Inv  
-                      <small>  <b> Target Date: June</b> </small>
+                      <small>  <b> ECD: June</b> </small>
                     </h5>
                   <div>
                   VMI Inv  Description
@@ -279,7 +279,7 @@ const Dashboard = () => {
                 <CListGroupItem action actve>
                   <h5 className="d-flex w-100  justify-content-between">
                    Global Inv  
-                      <small>  <b> Target Date: June</b> </small>
+                      <small>  <b> ECD: June</b> </small>
                     </h5>
                   <div>
                   Global Inv   Description
@@ -290,7 +290,7 @@ const Dashboard = () => {
                 <CListGroupItem action actve>
                   <h5 className="d-flex w-100  justify-content-between">
                       Network Topology    
-                      <small>  <b> Target Date: June</b> </small>
+                      <small>  <b> ECD: June</b> </small>
                     </h5>
                   <div>
                   Network Topology      Description
