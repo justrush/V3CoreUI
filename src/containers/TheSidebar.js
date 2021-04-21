@@ -28,7 +28,7 @@ const TheSidebar = () => {
     >
       <CSidebarBrand className="d-md-down-none" to="/">
         <CIcon
-          className="c-sidebar-brand-full"
+          className="sk-spinner sk-spinner-pulse"
           name="logo-negative"
           height={85}
         />
