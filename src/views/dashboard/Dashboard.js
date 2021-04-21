@@ -28,15 +28,12 @@ const Dashboard = () => {
  
 <CRow>
         <CCol>
-          <CCard>
+          <CCard color="info" > 
             
-            <CCardBody>
+            <CCardBody color="secondary" > 
            
-              <CJumbotron className="flex w-100">
-                <h1 className="flex w-100">End to End Supply Chain (ETES) <img src="/images/etes_logo.png" className="flex" height='45' width='92' alt="..."></img>  </h1>
-                <p className="lead">Welcome to ETES!</p>
-              </CJumbotron>
-            </CCardBody>
+                         <h1 className="flex w-100">End to End Supply Chain (ETES) <img src="/images/etes_logo.png" class="img-thumbnail" height='45' width='92' alt="..."></img>  </h1>
+              </CCardBody>
           </CCard>
         </CCol>
       </CRow>

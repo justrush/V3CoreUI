@@ -25,8 +25,8 @@ const PurchasingBOMSelector = () => {
             <CCardHeader>
               Purchasing BOM Selector
             </CCardHeader>
-             <CCardBody>  <img src="/images/BOM.png" className="flex w-100 " alt="..."></img></CCardBody>
              
+              <img src="/images/BOM.png" class="img-thumbnail" alt="..."></img>
                 </CCard>
                 </CCol>
             </CRow>

@@ -20,7 +20,7 @@ const _nav =  [
     _tag: 'CSidebarNavItem',
     name: 'Purchasing BOM Selector',
     to: 'DemandSupply/PurchasingBOMSelector',
-  icon: <CIcon name="cil-puzzle" customClasses="c-sidebar-nav-icon"/>,
+  icon: <CIcon name="cib-Amazon" customClasses="c-sidebar-nav-icon"/>,
     badge: {
       color: 'light',
       text: 'April',
