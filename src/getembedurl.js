@@ -12,8 +12,8 @@ function getDashboardEmbedURL(
     errorCallback // GETEMBEDURL ERROR CALLBACK METHOD
     ) {
     const getDashboardParams = {
-        AwsAccountId: '885430138651',
-        DashboardId: 'd9706bd1d-a19a-40a3-a98e-2ba436eb900e',
+        AwsAccountId: accountId,
+        DashboardId: dashboardId,
         AdditionalDashboardIds: additionalDashboardIds,
         Namespace: quicksightNamespace,
         IdentityType: 'ANONYMOUS',
