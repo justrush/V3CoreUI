@@ -48,16 +48,7 @@ const Dashboard = () => {
                     <small>3 days ago</small>
                   </h4>
                 </CListGroupItem>
-                <CListGroupItem action actve>
-                  <h5 className="d-flex w-100  justify-content-between">
-                    Purchasing BOM Selector         
-                      <small>  <b> ECD: April</b> </small>
-                    </h5>
-                  <div>
-                  Select right BOM version and Qty/Need-by data
-                  </div>
-                </CListGroupItem>
-
+              
                 <CListGroupItem action actve>
                   <h5 className="d-flex w-100  justify-content-between">
                     Product Tree Search     
@@ -78,16 +69,26 @@ const Dashboard = () => {
                   </div>
                 </CListGroupItem>
 
-
                 <CListGroupItem action actve>
                   <h5 className="d-flex w-100  justify-content-between">
-                    'Where Used?' BOM Search     
+                    Usage BOM Search     
                       <small>  <b> ECD: April</b> </small>
                     </h5>
                   <div>
                   Sub-tier Components with SiliconExpert Data
                   </div>
                 </CListGroupItem>
+
+                <CListGroupItem action actve>
+                  <h5 className="d-flex w-100  justify-content-between">
+                    Purchasing BOM Selector         
+                      <small>  <b> ECD: April</b> </small>
+                    </h5>
+                  <div>
+                  Select right BOM version and Qty/Need-by data
+                  </div>
+                </CListGroupItem>
+
 
 
                 <CListGroupItem action actve>
