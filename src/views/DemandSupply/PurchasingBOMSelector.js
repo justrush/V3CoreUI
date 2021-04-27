@@ -19,7 +19,7 @@ function CustomToolbar() {
   export default function ColumnSizingGrid() {
     return (
 
-          <div style={{ height: 700,  width: '100%' }}>
+          <div style={{ height: 1200,  width: '100%' }}>
             <container>
             <DataGrid rows={rows} columns={columns} checkboxSelection
                 components={{
@@ -32,7 +32,7 @@ function CustomToolbar() {
 }
 const columns = [
   { field: 'id',  headerName: 'BOMid',  width: 120,  editable: false }, 
-  { field: 'part_num',  headerName: 'Part',  width: 120,  editable: false }, 
+  { field: 'part_num',  headerName: 'Part',  width: 150,  editable: false }, 
  
   { field: 'description',  headerName: 'Description',  width: 400,  editable: false }, 
   { field: 'responsible_engineer_name',  headerName: 'Lead Eng',  width: 120,  editable: false }, 
