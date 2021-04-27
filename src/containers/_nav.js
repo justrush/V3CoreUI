@@ -16,17 +16,7 @@ const _nav =  [
     _tag: 'CSidebarNavTitle',
     _children: ['Demand Supply Balancing']
   },
-  {
-    _tag: 'CSidebarNavItem',
-    name: 'Purchasing BOM Selector',
-    to: 'DemandSupply/PurchasingBOMSelector',
-  icon: <CIcon name="cib-Amazon" customClasses="c-sidebar-nav-icon"/>,
-    badge: {
-      color: 'light',
-      text: 'April',
-    }
-  },
-  {
+   {
     _tag: 'CSidebarNavItem',
     name: 'Product Tree Search',
     to: 'DemandSupply/Product_Tree_Search',
@@ -58,6 +48,16 @@ const _nav =  [
   },
   {
     _tag: 'CSidebarNavItem',
+    name: 'Purchasing BOM Selector',
+    to: 'DemandSupply/PurchasingBOMSelector',
+  icon: <CIcon name="cib-Amazon" customClasses="c-sidebar-nav-icon"/>,
+    badge: {
+      color: 'light',
+      text: 'April',
+    }
+  },
+  {
+    _tag: 'CSidebarNavItem',
     name: 'Demand Aggregator',
     to: '/Demand Supply Balancing/Demand Aggregator',
    icon: <CIcon name="cil-graph" customClasses="c-sidebar-nav-icon"/>,
@@ -66,6 +66,7 @@ const _nav =  [
     text: 'April',
   }
 },
+
   {
     _tag: 'CSidebarNavTitle',
     _children: ['Purchasing']
